@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258171880034",
+    "project_id": "quizdb-1670d",
+    "storage_bucket": "quizdb-1670d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258171880034:android:c07da803e24efe95ba473b",
+        "android_client_info": {
+          "package_name": "com.programming.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258171880034-9d3s81p18r830ceffkr00vsnhnibm63o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6taerQ-EJfGQjBJ-ZuE5nZHQonqpO2d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258171880034-9d3s81p18r830ceffkr00vsnhnibm63o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

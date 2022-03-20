@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#9798419E"
+tools:context=".QuizType">
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="239dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/quiz_image" />
+
+    <TextView
+    android:id="@+id/chooseTopic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/quizIcon"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="20dp"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:text="Choose Topic"
+    />
+
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/chooseTopic"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/javaLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/round_back_white10">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/java_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:text="Java"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phpLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/round_back_white10">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/php_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:text="Php"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/layout1"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/htmlLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/round_back_white10">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/html_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:text="Html"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/androidLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/round_back_white10">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/android_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            android:text="Android"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/startQuizBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Quiz"
+    android:layout_below="@+id/layout2"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    android:background="@drawable/round_back_orange20"/>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/logoutButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/layout2"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/round_back_black20"
+    android:text="LOGOUT"
+    android:textColor="#FFFFFF"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+
+
+
+</LinearLayout>

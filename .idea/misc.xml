@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/btn_black_border_radius.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable/round_back_black20.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable/round_back_green10.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/round_back_orange20.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/round_back_red10.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/round_back_white10.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/round_back_white_stroke.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/round_back_white_stroke10.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/round_black_light_yellow10.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/round_red_white10.xml" value="0.1375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.24728546142578126" />
+        <entry key="app/src/main/res/layout/activity_quiz_results.xml" value="0.19260101318359377" />
+        <entry key="app/src/main/res/layout/activity_quiz_type.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2006340579710145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
