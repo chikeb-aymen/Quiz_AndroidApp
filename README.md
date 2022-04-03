@@ -11,10 +11,10 @@
     <a href="#">
         <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
     </a>
-    <a href="https://github.com/SafdarJamal/quiz-app/actions?query=workflow%3A%22Node.js+CI%22">
+    <a href="#">
         <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Logo" />
     </a>
-    <a href="https://github.com/SafdarJamal/quiz-app/blob/master/LICENSE">
+    <a href="#">
         <img src="https://img.shields.io/badge/Firebase-000000?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
     </a>
 </p>
