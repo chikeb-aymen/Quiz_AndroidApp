@@ -1,7 +1,7 @@
 [![Level](https://img.shields.io/badge/Level-Elementary-green.svg?style=flat-square)](#contributors-)
 
 <h1 align="center">
-  <a href="https://safdarjamal.github.io/quiz-app/">
+  <a href="https://github.com/a-chikeb/Quiz_AndroidApp">
     Quiz App
   </a>
 </h1>
